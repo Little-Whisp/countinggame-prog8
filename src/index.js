@@ -10,14 +10,14 @@ const VIDEO_HEIGHT = 405
 const buttonOne = document.querySelector("#one");
 const buttonTwo = document.querySelector("#two");
 const buttonThree = document.querySelector("#three");
-const trainButton = document.querySelector("#train");
+// const trainButton = document.querySelector("#train");
 const classify = document.querySelector("#classify");
 
 //List of even listeners
 buttonOne.addEventListener("click", () => learnOne());
 buttonTwo.addEventListener("click", () => learnTwo());
 buttonThree.addEventListener("click", () => learnThree());
-trainButton.addEventListener("click", () =>  learnOne && console.log("Training"));
+// trainButton.addEventListener("click", () =>  learnOne && console.log("Training"));
 classify.addEventListener("click", () =>  predict() && console.log("predict"));
 
 let webcamdata = []
